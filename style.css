@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: rgb(243, 243, 243);
 }
@@ -13,12 +18,11 @@ header > div {
 #total > div {
   margin: 1rem 0;
 }
-
 #countries {
   margin: 1rem 0;
 }
 .total-card {
-  border: 2px solid rgb(158, 158, 158);
+  border: 2px solid rgb(150, 150, 150);
   padding: 0.3rem 0;
   margin: 0.3rem 0 ;
   border-radius: 0.3rem;
@@ -36,7 +40,6 @@ header > div {
 .active-cases {
   background-color: rgba(0, 140, 255, 0.4);
 }
-
 .total-card p,
 .total-card h2,
 .total-card h6 {
@@ -45,7 +48,6 @@ header > div {
 .total-card p {
   text-decoration: underline;
 }
-
 td:first-child{
     text-align: left;
 }
