@@ -1,0 +1,59 @@
+header {
+  background-color: rgb(243, 243, 243);
+}
+header > div {
+  display: flex !important;
+  justify-content: center;
+  margin: 1rem 0;
+}
+#logo-img {
+  width: 80%;
+  margin: 0 auto;
+}
+#total > div {
+  margin: 1rem 0;
+}
+
+#countries {
+  margin: 1rem 0;
+}
+.total-card {
+  border: 2px solid rgb(158, 158, 158);
+  padding: 0.3rem 0;
+  margin: 0.3rem 0 ;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.total-cases {
+  background-color: rgb(224, 224, 224);
+}
+.total-deaths {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.total-recovered {
+  background-color: rgba(9, 255, 0, 0.4);
+}
+.active-cases {
+  background-color: rgba(0, 140, 255, 0.4);
+}
+
+.total-card p,
+.total-card h2,
+.total-card h6 {
+  margin: 0;
+}
+.total-card p {
+  text-decoration: underline;
+}
+
+td:first-child{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+.sticky th{
+    position: sticky !important;
+    top: 0;
+    background-color: rgb(103, 110, 119);
+}
